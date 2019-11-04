@@ -14,10 +14,10 @@ import (
 // Job struct
 type Job struct {
 	ID             int      ` json:"id"`
-	Position       string   ` json:position"`
-	Company        string   ` json:company"`
-	Description    string   ` json:description"`
-	SkillsRequired []string ` json:skillsRequired"`
+	Position       string   ` json:"position"`
+	Company        string   ` json:"company"`
+	Description    string   ` json:"description"`
+	SkillsRequired []string ` json:"skillsRequired"`
 	Location       string   ` json:"location"`
 	EmploymentType string   ` json:"employmentType"`
 }
